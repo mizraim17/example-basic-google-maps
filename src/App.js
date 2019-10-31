@@ -8,7 +8,7 @@ function App(props) {
     <div className="App">
       <Map
         // https://www.google.com/maps/search/?api=1&query=Roma+Norte"
-        googleMapURL='https://maps.googleapis.com/maps/api/js?key=AIzaSyBXapuB-ypLj14cZDUHw-4VEXDGXxWAc9g&query=Roma+Norte'
+        googleMapURL='https://maps.googleapis.com/maps/api/js?key={api-key}&query=Roma+Norte'
         loadingElement={<div style={{ height: `100%` }} />}
         containerElement={<div style={{ height: `400px`, width: '400px' }} />}
         mapElement={<div style={{ height: `100%` }} />}
